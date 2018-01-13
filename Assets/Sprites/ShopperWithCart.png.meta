@@ -1,18 +1,17 @@
 fileFormatVersion: 2
-guid: 7feb899e6a0d84746b8491d3289d924b
-timeCreated: 1515858707
+guid: c3aa456325b9caa4ca0c638cc9641e94
+timeCreated: 1515858787
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: FrozenPizza
-    21300002: Chicken
-    21300004: Beef
-    21300006: Tomatoes
-    21300008: Milk
-    21300010: Cauliflour
-    21300012: Cheese
-    21300014: Soup
-    21300016: Bread
+    21300000: ShopperWithCart_0
+    21300002: ShopperWithCart_1
+    21300004: ShopperWithCart_2
+    21300006: ShopperWithCart_3
+    21300008: ShopperWithCart_4
+    21300010: ShopperWithCart_5
+    21300012: ShopperWithCart_6
+    21300014: ShopperWithCart_7
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,7 +39,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -55,7 +54,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -89,7 +88,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FrozenPizza
+      name: ShopperWithCart_0
       rect:
         serializedVersion: 2
         x: 0
@@ -103,7 +102,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Chicken
+      name: ShopperWithCart_1
       rect:
         serializedVersion: 2
         x: 32
@@ -117,7 +116,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Beef
+      name: ShopperWithCart_2
       rect:
         serializedVersion: 2
         x: 64
@@ -131,7 +130,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Tomatoes
+      name: ShopperWithCart_3
       rect:
         serializedVersion: 2
         x: 0
@@ -145,7 +144,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Milk
+      name: ShopperWithCart_4
       rect:
         serializedVersion: 2
         x: 32
@@ -159,7 +158,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Cauliflour
+      name: ShopperWithCart_5
       rect:
         serializedVersion: 2
         x: 64
@@ -173,7 +172,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Cheese
+      name: ShopperWithCart_6
       rect:
         serializedVersion: 2
         x: 0
@@ -187,24 +186,10 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Soup
+      name: ShopperWithCart_7
       rect:
         serializedVersion: 2
         x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Bread
-      rect:
-        serializedVersion: 2
-        x: 64
         y: 0
         width: 32
         height: 32

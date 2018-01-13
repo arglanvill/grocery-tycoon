@@ -1,17 +1,17 @@
 fileFormatVersion: 2
-guid: d0f02d31f94290a4a994194831aebbc5
-timeCreated: 1515858467
+guid: f88a1b4d5c416854589f18c5e5a11d33
+timeCreated: 1515858484
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: DoorRight_0
-    21300002: DoorRight_1
-    21300004: DoorRight_2
-    21300006: DoorRight_3
-    21300008: DoorRight_4
-    21300010: DoorRight_5
-    21300012: DoorRight_6
-    21300014: DoorRight_7
+    21300000: DoorLeft_0
+    21300002: DoorLeft_1
+    21300004: DoorLeft_2
+    21300006: DoorLeft_3
+    21300008: DoorLeft_4
+    21300010: DoorLeft_5
+    21300012: DoorLeft_6
+    21300014: DoorLeft_7
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -39,7 +39,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -54,7 +54,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -88,7 +88,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DoorRight_0
+      name: DoorLeft_0
       rect:
         serializedVersion: 2
         x: 0
@@ -102,7 +102,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: DoorRight_1
+      name: DoorLeft_1
       rect:
         serializedVersion: 2
         x: 32
@@ -116,7 +116,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: DoorRight_2
+      name: DoorLeft_2
       rect:
         serializedVersion: 2
         x: 64
@@ -130,7 +130,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: DoorRight_3
+      name: DoorLeft_3
       rect:
         serializedVersion: 2
         x: 96
@@ -144,7 +144,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: DoorRight_4
+      name: DoorLeft_4
       rect:
         serializedVersion: 2
         x: 0
@@ -158,7 +158,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: DoorRight_5
+      name: DoorLeft_5
       rect:
         serializedVersion: 2
         x: 32
@@ -172,7 +172,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: DoorRight_6
+      name: DoorLeft_6
       rect:
         serializedVersion: 2
         x: 64
@@ -186,7 +186,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: DoorRight_7
+      name: DoorLeft_7
       rect:
         serializedVersion: 2
         x: 96
