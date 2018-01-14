@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e424fb2cfb7a3d14dabb80d5959c9352
-timeCreated: 1515858623
+timeCreated: 1515952503
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -15,6 +15,7 @@ TextureImporter:
     21300016: Shelf_0
     21300018: Shelf_1
     21300020: Shelf_2
+    21300022: Shelf_3
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -99,10 +100,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -16, y: -6}
+        - {x: -11, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 1}
+        - {x: -16, y: 1}
+      physicsShape:
+      - - {x: -16, y: -6}
+        - {x: -11, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 1}
+        - {x: -16, y: 1}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Carts_1
@@ -113,10 +124,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 1}
+        - {x: -16, y: 1}
+      physicsShape:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 1}
+        - {x: -16, y: 1}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Carts_2
@@ -127,10 +146,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -16, y: 1}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 0}
+        - {x: 14, y: 1}
+      physicsShape:
+      - - {x: -16, y: 1}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 0}
+        - {x: 14, y: 1}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Checkout_0
@@ -141,10 +170,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 7}
+        - {x: -16, y: 7}
+      physicsShape:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 7}
+        - {x: -16, y: 7}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Checkout_1
@@ -155,10 +192,22 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -16, y: 14}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 10}
+        - {x: 12, y: 16}
+      physicsShape:
+      - - {x: -11, y: 16}
+        - {x: -16, y: 14}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 10}
+        - {x: 12, y: 16}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Checkout_2
@@ -169,10 +218,20 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 4}
+        - {x: 13, y: 7}
+        - {x: -16, y: 7}
+      physicsShape:
+      - - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 4}
+        - {x: 13, y: 7}
+        - {x: -16, y: 7}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Fridge
@@ -183,10 +242,58 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      - - {x: 11, y: -12}
+        - {x: 11, y: -11}
+        - {x: -11, y: -11}
+        - {x: -11, y: -12}
+      - - {x: 11, y: -6}
+        - {x: 11, y: -5}
+        - {x: -11, y: -5}
+        - {x: -11, y: -6}
+      - - {x: 11, y: 0}
+        - {x: 11, y: 1}
+        - {x: -11, y: 1}
+        - {x: -11, y: 0}
+      - - {x: 11, y: 6}
+        - {x: 11, y: 7}
+        - {x: -11, y: 7}
+        - {x: -11, y: 6}
+      - - {x: 11, y: 12}
+        - {x: 11, y: 13}
+        - {x: -11, y: 13}
+        - {x: -11, y: 12}
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      - - {x: 11, y: -12}
+        - {x: 11, y: -11}
+        - {x: -11, y: -11}
+        - {x: -11, y: -12}
+      - - {x: 11, y: -6}
+        - {x: 11, y: -5}
+        - {x: -11, y: -5}
+        - {x: -11, y: -6}
+      - - {x: 11, y: 0}
+        - {x: 11, y: 1}
+        - {x: -11, y: 1}
+        - {x: -11, y: 0}
+      - - {x: 11, y: 6}
+        - {x: 11, y: 7}
+        - {x: -11, y: 7}
+        - {x: -11, y: 6}
+      - - {x: 11, y: 12}
+        - {x: 11, y: 13}
+        - {x: -11, y: 13}
+        - {x: -11, y: 12}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Freezer
@@ -197,10 +304,58 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      - - {x: 11, y: -12}
+        - {x: 11, y: -11}
+        - {x: -11, y: -11}
+        - {x: -11, y: -12}
+      - - {x: 6, y: -6}
+        - {x: 6, y: -5}
+        - {x: -11, y: -5}
+        - {x: -11, y: -6}
+      - - {x: 6, y: 0}
+        - {x: 6, y: 1}
+        - {x: -11, y: 1}
+        - {x: -11, y: 0}
+      - - {x: 6, y: 6}
+        - {x: 6, y: 7}
+        - {x: -11, y: 7}
+        - {x: -11, y: 6}
+      - - {x: 11, y: 12}
+        - {x: 11, y: 13}
+        - {x: -11, y: 13}
+        - {x: -11, y: 12}
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      - - {x: 11, y: -12}
+        - {x: 11, y: -11}
+        - {x: -11, y: -11}
+        - {x: -11, y: -12}
+      - - {x: 6, y: -6}
+        - {x: 6, y: -5}
+        - {x: -11, y: -5}
+        - {x: -11, y: -6}
+      - - {x: 6, y: 0}
+        - {x: 6, y: 1}
+        - {x: -11, y: 1}
+        - {x: -11, y: 0}
+      - - {x: 6, y: 6}
+        - {x: 6, y: 7}
+        - {x: -11, y: 7}
+        - {x: -11, y: 6}
+      - - {x: 11, y: 12}
+        - {x: 11, y: 13}
+        - {x: -11, y: 13}
+        - {x: -11, y: 12}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Shelf_0
@@ -211,10 +366,18 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Shelf_1
@@ -225,16 +388,46 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
       tessellationDetail: 0
     - serializedVersion: 2
       name: Shelf_2
       rect:
         serializedVersion: 2
         x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      physicsShape:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Shelf_3
+      rect:
+        serializedVersion: 2
+        x: 64
         y: 0
         width: 32
         height: 32
