@@ -1,17 +1,17 @@
 fileFormatVersion: 2
-guid: f88a1b4d5c416854589f18c5e5a11d33
-timeCreated: 1516325086
+guid: e7cf32206fb6a1340acfc63486bc9323
+timeCreated: 1516331188
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: DoorLeft_0
-    21300002: DoorLeft_1
-    21300004: DoorLeft_2
-    21300006: DoorLeft_3
-    21300008: DoorLeft_4
-    21300010: DoorLeft_5
-    21300012: DoorLeft_6
-    21300014: DoorLeft_7
+    21300000: DoubleDoor_0
+    21300002: DoubleDoor_1
+    21300004: DoubleDoor_2
+    21300006: DoubleDoor_3
+    21300008: DoubleDoor_4
+    21300010: DoubleDoor_5
+    21300012: DoubleDoor_6
+    21300014: DoubleDoor_7
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -88,155 +88,116 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DoorLeft_0
+      name: DoubleDoor_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DoubleDoor_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DoubleDoor_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: DoubleDoor_3
       rect:
         serializedVersion: 2
         x: 0
         y: 64
-        width: 32
+        width: 64
         height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 32}
-        - {x: -16, y: -32}
-        - {x: 16, y: -32}
-        - {x: 16, y: 32}
+      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: DoorLeft_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 32}
-        - {x: -16, y: -32}
-        - {x: 14, y: -32}
-        - {x: 16, y: 9}
-        - {x: 16, y: 32}
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: DoorLeft_2
+      name: DoubleDoor_4
       rect:
         serializedVersion: 2
         x: 64
         y: 64
-        width: 32
+        width: 64
         height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 32}
-        - {x: -16, y: -32}
-        - {x: 10, y: -32}
-        - {x: 16, y: 17}
-        - {x: 16, y: 32}
+      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: DoorLeft_3
+      name: DoubleDoor_5
       rect:
         serializedVersion: 2
-        x: 96
+        x: 128
         y: 64
-        width: 32
+        width: 64
         height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 32}
-        - {x: -16, y: -32}
-        - {x: 6, y: -32}
-        - {x: 16, y: 19}
-        - {x: 16, y: 32}
+      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: DoorLeft_4
+      name: DoubleDoor_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
+        width: 64
         height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 32}
-        - {x: -16, y: -32}
-        - {x: 2, y: -32}
-        - {x: 16, y: 20}
-        - {x: 16, y: 32}
+      physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: DoorLeft_5
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 32}
-        - {x: -16, y: -32}
-        - {x: -2, y: -32}
-        - {x: 16, y: 20}
-        - {x: 16, y: 32}
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: DoorLeft_6
+      name: DoubleDoor_7
       rect:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 32
+        width: 64
         height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -16, y: 32}
-        - {x: -16, y: -32}
-        - {x: -6, y: -32}
-        - {x: 16, y: 21}
-        - {x: 16, y: 32}
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: DoorLeft_7
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 64
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -16, y: 32}
-        - {x: -16, y: -32}
-        - {x: -10, y: -32}
-        - {x: 16, y: 21}
-        - {x: 16, y: 32}
+      physicsShape: []
       tessellationDetail: 0
     outline: []
     physicsShape: []
