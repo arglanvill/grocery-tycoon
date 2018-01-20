@@ -180,7 +180,7 @@ TilemapRenderer:
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
-  m_SortOrder: 0
+  m_SortOrder: 2
   m_MaskInteraction: 0
 --- !u!1839735485 &109660514
 Tilemap:
@@ -2000,11 +2000,11 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
-  m_SortOrder: 0
+  m_SortOrder: 2
   m_MaskInteraction: 0
 --- !u!1839735485 &1316905516
 Tilemap:
@@ -4524,6 +4524,7 @@ GameObject:
   - component: {fileID: 1545066372}
   - component: {fileID: 1545066371}
   - component: {fileID: 1545066373}
+  - component: {fileID: 1545066374}
   m_Layer: 0
   m_Name: shopper
   m_TagString: Untagged
@@ -4582,7 +4583,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1545066370}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.003537178, y: -11.362886, z: 0}
+  m_LocalPosition: {x: 0, y: -11.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4603,6 +4604,17 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &1545066374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1545066370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12812d9e51a53024b8f6c3f5edf27ed0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1570002697
 GameObject:
   m_ObjectHideFlags: 0
@@ -4613,6 +4625,7 @@ GameObject:
   - component: {fileID: 1570002700}
   - component: {fileID: 1570002699}
   - component: {fileID: 1570002698}
+  - component: {fileID: 1570002701}
   m_Layer: 0
   m_Name: door
   m_TagString: Untagged
@@ -4694,6 +4707,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1570002701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1570002697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ecb42f84350d314aae532a327acfac2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  range: 1
+  shopper: {fileID: 1545066370}
+  detected: 0
 --- !u!1 &1769486064
 GameObject:
   m_ObjectHideFlags: 0

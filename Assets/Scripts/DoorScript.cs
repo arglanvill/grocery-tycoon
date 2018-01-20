@@ -8,15 +8,17 @@ public class DoorScript : MonoBehaviour {
     public float range = 1;
     public GameObject shopper;
     public bool detected = false;
+    Animator animator;
 
 	// Use this for initialization
 	void Start () {
-		
+        animator = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
         detected = SenseShopper();
+        animator.SetBool("detected", detected);
 	}
 
     // Determine if the shopper is within sensor range
