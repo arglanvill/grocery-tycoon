@@ -56,7 +56,7 @@ public class Location {
         tileMappings.Add("Freezer_1", new Location(LocationType.Freezer, Direction.East));
         tileMappings.Add("Freezer_2", new Location(LocationType.Freezer, Direction.West));
         tileMappings.Add("Freezer_3", new Location(LocationType.Freezer, Direction.North));
-        tileMappings.Add("Carts_0", new Location(LocationType.Carts, Direction.South));
+        tileMappings.Add("Carts_0", new Location(LocationType.Carts, Direction.West));
         tileMappings.Add("Checkout_0", new Location(LocationType.CheckoutEntry, Direction.South));
         tileMappings.Add("Checkout_1", new Location(LocationType.CheckoutRegister, Direction.North));
         tileMappings.Add("Checkout_2", new Location(LocationType.CheckoutExit, Direction.South));
